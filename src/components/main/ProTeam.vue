@@ -7,17 +7,17 @@ export default {
                 {
                     Title:'103K COMMUNITY EARNING',
                     Des:'Distinctively provide acces multfuncto users whereas communicate leveraged services', 
-                    link:'icon-1.png',
+                    Link:'icon-1.png',
                 },
                 {
                     Title:'34M+ REGISTERED PLAYERS',
                     Des:'Distinctively provide acces multfuncto users whereas communicate leveraged services',
-                    link:'icon-2.png',
+                    Link:'icon-2.png',
                 },
                 {
                     Title:'240K STRERAMS COMPLETE',
                     Des:'Distinctively provide acces multfuncto users whereas communicate leveraged services',
-                    link:'icon-3.png',
+                    Link:'icon-3.png',
                 },
             ]
         }
