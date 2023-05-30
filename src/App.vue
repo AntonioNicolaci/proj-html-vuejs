@@ -1,9 +1,11 @@
 <script>
 import HeaderApp from './components/header/HeaderApp.vue';
+import MainApp from './components/main/MainApp.vue';
 
 export default {
   components: {
     HeaderApp,
+    MainApp,
   }
 }
 
@@ -12,6 +14,7 @@ export default {
 <template>
 
   <headerApp />
+  <MainApp />
 <!-- HEADEAR -->
 
   <!-- UPBAR -->
