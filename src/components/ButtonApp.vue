@@ -19,7 +19,6 @@ a{
     text-decoration: none;
 }
 .whiteBTN{
-    color: #fff;
     font-weight: bold;
 }
 </style>
