@@ -74,7 +74,7 @@ export default {
 </script>
 
 <template>
-    <nav class="align-left align-right">
+    <nav class="align">
         <div id="upBar">
             <div id="number">
                 <BIconTelephoneFill />
