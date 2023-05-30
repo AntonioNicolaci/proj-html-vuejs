@@ -74,7 +74,7 @@ export default {
 </script>
 
 <template>
-    <nav>
+    <nav class="align-left align-right">
         <div id="upBar">
             <div id="number">
                 <BIconTelephoneFill />
@@ -115,7 +115,7 @@ export default {
 
 <style lang="scss" scoped>
 nav {
-    background-color: rgba(35, 42, 92, 0.8)
+    background-color: rgba(35, 42, 92, 0.85)
 }
 
 #upBar {
