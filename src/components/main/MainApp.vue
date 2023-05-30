@@ -1,24 +1,74 @@
 <script>
+import TodayCard from './TodayCard.vue';
+import ButtonApp from '../ButtonApp.vue';
+import TodaysDiv from './TodaysDiv.vue';
+import ProTeam from './ProTeam.vue';
+import AllMatches from './AllMatches.vue';
 export default {
-    
+    components: {
+    TodayCard,
+    ButtonApp,
+    TodaysDiv,
+    ProTeam,
+    AllMatches,
+}
 }
 </script>
 
 <template>
     <main>
-        <div>A</div>
-        <div>B</div>
-        <div>C</div>
-        <div>D</div>
-        <div>E</div>
-        <div>F</div>
-        <div>G</div>
-        <div>H</div>
-        <div>I</div>
-        <div>J</div>
+        <div class="mainDivCol align">
+            <TodaysDiv />
+        </div>
+        <div class="mainDivRow align-left">
+            <ProTeam />
+        </div>
+        <!-- <div class="mainDiv">
+            <AllMatches />
+        </div>
+        <div class="mainDiv">
+            <MeetSquad />
+        </div>
+        <div class="mainDiv">
+            <JoinGame />
+        </div>
+        <div class="mainDiv">
+            <CheckLive />
+        </div>
+        <div class="mainDiv">
+            <Products />
+        </div>
+        <div class="mainDiv">
+            <BecomePartner />
+        </div>
+        <div class="mainDiv">
+            <Blog />
+        </div>
+        <div class="mainDiv">
+            <Testimonial />
+        </div> -->
     </main>
 </template>
 
 <style lang="scss" scoped>
-    
+main {
+    background-color: #131661;
+}
+
+.mainDivCol {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+}
+.mainDivRow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 60%;
+}
+#proTeam{
+
+}
 </style>
