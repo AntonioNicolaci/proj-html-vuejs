@@ -20,13 +20,13 @@ export default {
         <div class="mainDivCol align">
             <TodaysDiv />
         </div>
-        <div class="mainDivRow align-left">
+        <div class="mainDivRow align">
             <ProTeam />
         </div>
-        <!-- <div class="mainDiv">
+        <div class="mainDiv" id="allMatch">
             <AllMatches />
         </div>
-        <div class="mainDiv">
+        <!-- <div class="mainDiv">
             <MeetSquad />
         </div>
         <div class="mainDiv">
@@ -66,9 +66,10 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 60%;
+    max-width: 100%;
 }
-#proTeam{
-
+#allMatch {
+    background: url('../../../public/img/bg\ \(1\).jpg');
+    height: 1382px;
 }
 </style>
