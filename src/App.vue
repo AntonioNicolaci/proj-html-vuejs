@@ -1,7 +1,17 @@
 <script>
+import HeaderApp from './components/header/HeaderApp.vue';
+
+export default {
+  components: {
+    HeaderApp,
+  }
+}
+
 </script>
 
 <template>
+
+  <headerApp />
 <!-- HEADEAR -->
 
   <!-- UPBAR -->
@@ -19,16 +29,15 @@
   <!-- JUMBO --><!-- IMG BACKBROUND -->
     <!-- TEXT HERO -->
   <!-- JUMBO -->
+<!-- HEADEAR -->
 
+<!-- MAIN -->
   <!-- TODAYS GAME -->
     <!-- TEXT -->
     <!-- CARD GAME -->
     <!-- BUTTON -->
   <!-- TODAYS GAME -->
-
-<!-- HEADEAR -->
-
-<!-- MAIN -->
+  
   <!-- PRO TEAM -->
     <!-- IMG -->
     <!-- TEXT -->
@@ -110,8 +119,6 @@
       <!-- TEXT -->
       <!-- FORM -->
     <!-- NEWSLETTER -->
-
-
   <!-- FOOTER BODY -->
 
   <!-- COPYRIGHT -->
@@ -119,5 +126,5 @@
 
 </template>
 
-<style scoped>
+<style lang="scss" scoped>
 </style>
