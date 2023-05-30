@@ -2,11 +2,22 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: #fff;
     font-family: PTSansNarrow, sans-serif;
+}
+.align {
+    padding-left: 20%;
+    padding-right: 20%;
 }
 .align-left {
     padding-left: 20%;
 }
 .align-right {
-    padding-right: 20%
+    padding-right: 20%;
+}
+main p {
+    color: #ff0052;
+}
+.mainBorderCard {
+    border-bottom: 1px solid #333;
 }
