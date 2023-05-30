@@ -13,7 +13,7 @@ export default {
         <h2>GENUINE MONEY TRANSACTION</h2>
         <p>Assertively Communicate An Expanded Array Of Mindshare Rather Than Diverse Technologies For Magnetic Applications Eamlessly Virtual Then Conveniently Monetize Synergistic Human Capital</p>
         <ButtonApp 
-        :text="ciao"
+        :text="'ciao'"
         :link="'\#'"
         :classCSS="[]"/>
     </div>
