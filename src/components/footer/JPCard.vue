@@ -14,9 +14,9 @@ export default {
 }
 </script>
 <template>
-    <div>
+    <div class="JPCDiv">
         <img :src="`../../../public/img/${logo}`" :alt="logo">
-        <div>
+        <div class="JPCDText">
             <h3>{{ nameG }}</h3>
             <p>Poker: ${{ poker }}</p>
             <div>
@@ -28,4 +28,21 @@ export default {
         </div>
     </div>
 </template>
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+.JPCDiv{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: calc(90px + 4em);
+    & img {
+        width: 90px;
+        height: 90px;
+    }
+}
+.JPCDText {
+    display: flex;
+    flex-direction: column;
+    row-gap: .4em;
+    padding-left: 1em;
+}
+</style>
