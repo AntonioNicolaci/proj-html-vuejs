@@ -24,17 +24,27 @@ export default {
     </footer>
 </template>
 <style lang="scss" scoped>
-    footer {
-        background: url('../../../public/img/bg (3).jpg');
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        color: #fff;
-    }
-    #upFooter {
-        display: flex;
-        justify-content: center;
-        width: 100%;
-        border-bottom: 1px solid rgba(100, 100, 100, 0.5);
-    }
+footer {
+    background: url('../../../public/img/bg (3).jpg');
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+}
+
+#upFooter {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    border-bottom: 1px solid rgba(100, 100, 100, 0.5);
+}
+
+#botFooter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #232a5c;
+    width: 100%;
+    height: 5em;
+}
 </style>
