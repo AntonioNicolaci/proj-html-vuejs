@@ -4,55 +4,60 @@ import ButtonApp from '../ButtonApp.vue';
 import TodaysDiv from './TodaysDiv.vue';
 import ProTeam from './ProTeam.vue';
 import AllMatches from './AllMatches.vue';
+import MeetSquad from './MeetSquad.vue';
+import JoinGame from './JoinGame.vue';
+import CheckLive from './CheckLive.vue';
+import Products from './Products.vue';
+import BecomePartner from './BecomePartner.vue';
+import Blog from './Blog.vue';
+import Testimonial from './Testimonial.vue';
 export default {
     components: {
-    TodayCard,
-    ButtonApp,
-    TodaysDiv,
-    ProTeam,
-    AllMatches,
-}
+        TodayCard,
+        ButtonApp,
+        TodaysDiv,
+        ProTeam,
+        AllMatches,
+        MeetSquad,
+        JoinGame,
+        CheckLive,
+        Products,
+        BecomePartner,
+        Blog,
+        Testimonial,
+    }
 }
 </script>
 
 <template>
     <main>
-        <div class="mainDivCol align">
-            <TodaysDiv />
-        </div>
-        <div class="mainDivRow align">
+        <TodaysDiv />
+        <div class="align">
             <ProTeam />
         </div>
-        <div class="mainDiv" id="allMatch">
+        <div id="allmatch">
             <AllMatches />
         </div>
-        <!-- <div class="mainDiv">
-            <MeetSquad />
-        </div>
-        <div class="mainDiv">
-            <JoinGame />
-        </div>
-        <div class="mainDiv">
+        <MeetSquad />
+        <JoinGame />
+        <div id="checklive">
             <CheckLive />
         </div>
-        <div class="mainDiv">
-            <Products />
-        </div>
-        <div class="mainDiv">
-            <BecomePartner />
-        </div>
-        <div class="mainDiv">
+        <Products />
+        <BecomePartner />
+        <div id="blog">
             <Blog />
         </div>
-        <div class="mainDiv">
+        <div id="testimonial">
             <Testimonial />
-        </div> -->
+        </div>
     </main>
 </template>
 
 <style lang="scss" scoped>
 main {
     background-color: #131661;
+    color: #fff;
 }
 
 .mainDivCol {
@@ -62,14 +67,26 @@ main {
     align-items: center;
     max-width: 100%;
 }
-.mainDivRow{
+
+.mainDivRow {
     display: flex;
     justify-content: center;
     align-items: center;
     max-width: 100%;
 }
-#allMatch {
+
+#allmatch {
     background: url('../../../public/img/bg\ \(1\).jpg');
     height: 1382px;
+}
+#checklive{
+    background-image: url('../../../public/img/bg\ \(3\).jpg');
+}
+#blog{
+    background-image: url('../../../public/img/bg\ \(2\).jpg');
+}
+#testimonial {
+    background: url('../../../public/img/bg.png') ;
+    height: 675px;
 }
 </style>
