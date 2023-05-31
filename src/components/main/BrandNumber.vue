@@ -22,12 +22,23 @@ export default {
 <style lang="scss" scoped>
     .BNDiv {
         display: flex;
+        margin-bottom: 1em;
     }
-    .circleBN {
+    .BNCircle {
         border-radius: 50%;
         background-color: #ff0052;
+        padding: 1em;
+        margin-right: 1em;
+        width: calc(36px + 2em) ;
+        height: calc(36px + 2em);
     }
     .BNDText {
-
+        display: flex;
+        flex-direction: column;
+        row-gap: 1em;
+        
+        & p {
+            color: #fff;
+        }
     }
 </style>
