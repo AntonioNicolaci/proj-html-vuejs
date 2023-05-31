@@ -5,19 +5,19 @@ export default {
         return {
             BrandN: [
                 {
-                    Title:'103K COMMUNITY EARNING',
-                    Des:'Distinctively provide acces multfuncto users whereas communicate leveraged services', 
-                    Link:'icon-1.png',
+                    Title: '103K COMMUNITY EARNING',
+                    Des: 'Distinctively provide acces multfuncto users whereas communicate leveraged services',
+                    Link: 'icon-1.png',
                 },
                 {
-                    Title:'34M+ REGISTERED PLAYERS',
-                    Des:'Distinctively provide acces multfuncto users whereas communicate leveraged services',
-                    Link:'icon-2.png',
+                    Title: '34M+ REGISTERED PLAYERS',
+                    Des: 'Distinctively provide acces multfuncto users whereas communicate leveraged services',
+                    Link: 'icon-2.png',
                 },
                 {
-                    Title:'240K STRERAMS COMPLETE',
-                    Des:'Distinctively provide acces multfuncto users whereas communicate leveraged services',
-                    Link:'icon-3.png',
+                    Title: '240K STRERAMS COMPLETE',
+                    Des: 'Distinctively provide acces multfuncto users whereas communicate leveraged services',
+                    Link: 'icon-3.png',
                 },
             ]
         }
@@ -28,9 +28,9 @@ export default {
 }
 </script>
 <template>
-    <div>
+    <div id="proTeam">
         <img src="../../../public/img/01.png" alt="proTeam" id="proTeam">
-        <div>
+        <div class="textPT">
             <p>
                 WHO WE ARE
             </p>
@@ -42,12 +42,20 @@ export default {
                 functionalities rather than an extensible archtectur services and cross
             </h6>
             <div>
-                <BrandNumber v-for="bn in BrandN"
-                :Title="bn.Title"
-                :Des="bn.Des"
-                :Link="bn.Link" />
+                <BrandNumber v-for="bn in BrandN" :Title="bn.Title" :Des="bn.Des" :Link="bn.Link" />
             </div>
         </div>
     </div>
 </template>
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+#proTeam {
+    display: flex;
+    align-items: center;
+    margin-block: 6em;
+}
+.textPT {
+        display: flex;
+        flex-direction: column;
+        row-gap: 1em;
+}
+</style>
