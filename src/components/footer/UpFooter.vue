@@ -8,7 +8,7 @@ export default {
 }
 </script>
 <template>
-    <div>
+    <div id="UFDiv">
         <div>
             <img src="../../../public/img/01 (4).png" alt="">
             <span>Phone Number: +88012 3454 6778 912</span>
@@ -23,4 +23,20 @@ export default {
         </div>
     </div>
 </template>
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+#UFDiv{
+    display: flex;
+    align-items: center;
+    & div {
+        display: flex;
+        align-items: center;
+        padding: 2em;
+        border-inline: 1px solid rgba(100, 100, 100, 0.5);
+        height: 6em;
+
+        & svg {
+            color: #ff0052;
+        }
+    }
+}
+</style>
