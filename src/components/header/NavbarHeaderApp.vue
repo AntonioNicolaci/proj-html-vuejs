@@ -48,12 +48,18 @@ export default {
                     text: "LOG IN",
                     link: "#",
                     classCSS: [
+                        "redColor",
+                        "whiteBG",
+                        "redBorder"
                     ]
                 },
                 {
                     text: "SING IN",
                     link: "#",
                     classCSS: [
+                        "whiteColor",
+                        "redBG",
+                        "whiteBorder"
                     ]
                 },
             ]
