@@ -51,8 +51,8 @@ export default {
         <div id="formDiv">
             <h2>OUR NEWSLETTER</h2>
             <p>Gamer esports organization supported by community leaders</p>
-            <input type="text">
-            <input type="text">
+            <input type="text" placeholder="Your Name">
+            <input type="text" placeholder="Your Email">
             <ButtonApp :text="'SEND MASSAGE'" :link="'#'" :classCSS=[] />
         </div>
     </div>
@@ -82,5 +82,21 @@ export default {
 
 }
 
-#formDiv {}
+#formDiv {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1em;
+
+    & input {
+        background-color: rgba(35, 42, 92, 0.9);
+        border: none;
+        color: #fff;
+        padding-block: 1em;
+        padding-left: .5em;
+
+        &::placeholder {
+            color: #fff;
+        }
+    }
+}
 </style>
