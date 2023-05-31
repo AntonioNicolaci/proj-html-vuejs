@@ -27,7 +27,7 @@ export default {
 }
 </script>
 <template >
-    <div class="mainBorderCard">
+    <div id="todayDiv">
         <p>
             TODAY'S
         </p>
@@ -41,8 +41,19 @@ export default {
     </div>
 </template>
 <style lang="scss" scoped>
+#todayDiv {
+display: flex;
+flex-direction: column;
+align-items: center;
+row-gap: 1em;
+
+& p {
+    margin-top: 6em;
+}
+}
 .todayCardDiv {
     display: flex;
     flex-direction: row;
+    gap: 1em;
 }
 </style>
