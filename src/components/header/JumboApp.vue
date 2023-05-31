@@ -15,7 +15,7 @@ export default {
         <ButtonApp 
         :text="'ciao'"
         :link="'\#'"
-        :classCSS="[]"/>
+        :classCSS="[redColor, whiteBG, whiteBorder]"/>
     </div>
 </template>
 
